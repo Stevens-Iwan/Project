@@ -1,4 +1,10 @@
 import streamlit as st
+import pandas as pd
+import pytransit as pytr
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy as sci
+
 
 st.write("Hello World")
 
@@ -7,7 +13,6 @@ st.write("Hello World")
 Here's our first attempt at using data to create a table:
 """
 
-import streamlit as st
 import pandas as pd
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
