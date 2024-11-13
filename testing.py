@@ -26,23 +26,6 @@ df
 st.title("Title!")
 st.write("Hello World")
 
-
-#Testing streaming text
-streamed_text = """
-  This text is coming out in a stream!
-  It is currently coming out at a rate of 5 words/second, but this rate can be freely changed. 
-  """
-
-#Function to run through the text (could be made more general but not needed now)
-def stream_data():
-    for word in streamed_text.split(" "):
-        yield word + " "
-        time.sleep(0.2)
-
-#Use the st.write_stream tool and call the function
-if st.button("Stream the text?"):
-    st.write_stream(stream_data)
-
 #Put a dividing line in
 st.divider()
 
