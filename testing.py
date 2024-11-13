@@ -46,7 +46,8 @@ tm.set_data(time = np.linspace(-0.05, 0.05, 500))
 
 
 flux = tm.evaluate(k=0.1, ldc=[0.6, 0.5], t0=0.0, p=1, a=4.2, i=0.5*np.pi, e=0.0, w=0.0)
-plot_lc(tm.time, flux);
+figure = plot_lc(tm.time, flux);
+st.pyplot(figure)
 
 #k = planet-star radius ratio
 #ldc = limb darkening model coefficients 
@@ -57,4 +58,3 @@ plot_lc(tm.time, flux);
 #e = the orbital eccentricity (optional, can be left out if assuming circular a orbit, which we probably will)
 #w = the argument of periastron in radians (also optional, can be left out if assuming circular a orbit, which we probably will).
 
-plt.show
