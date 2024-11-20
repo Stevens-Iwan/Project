@@ -49,3 +49,4 @@ plt.plot(x_data, y_data)
 
 #To actually show plot
 st.pyplot(fig)
+
