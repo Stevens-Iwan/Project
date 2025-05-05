@@ -97,7 +97,6 @@ st.dataframe(
     detection_methods,
     width = 1000,
     height = 425,
-    hide_index = True
 )
 
 st.write("""As you can see, two methods dominate exoplanet detection thus far. We will be 
