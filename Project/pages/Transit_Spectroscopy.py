@@ -46,7 +46,7 @@ st.write("""When white light from a star passes through the atmosphere of a plan
          absorption lines.""")
 st.write("By studying where these lines appear, astronomers can deduce the makeup of an exoplanet's atmosphere.")
 
-st.image("absorptionlines.png", caption = "Example absorption lines. Each dark line represents a specific atom or molecule's absorption.")
+st.image("absorptionlines.PNG", caption = "Example absorption lines. Each dark line represents a specific atom or molecule's absorption.")
 
 st.divider()
 
