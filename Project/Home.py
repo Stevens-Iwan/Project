@@ -109,7 +109,7 @@ st.divider()
 
 #Question 2
 if not st.session_state.q2_submitted:
-    with st.form("q2_form", border=False):
+    with st.form("q2_form"):
         st.write("Question 2: To the nearest whole number, what percent of exoplanets discovered have come from the transit method and radial velocity methods combined?")
         q2_answer = st.text_input("Enter your answer here:")
         q2_submit = st.form_submit_button("Submit Q2")
