@@ -136,7 +136,7 @@ if st.session_state.q2_submitted:
 
 #Question 3
 if not st.session_state.q3_submitted:
-    with st.form("q3_form", border=False):
+    with st.form("q3_form"):
         st.write("Question 3: To the nearest whole number, what percent of exoplanets discovered have come from the transit method alone?")
         q3_answer = st.text_input("Enter your answer here:")
         q3_submit = st.form_submit_button("Submit Q3")
