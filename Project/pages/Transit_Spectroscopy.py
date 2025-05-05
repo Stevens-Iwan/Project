@@ -56,7 +56,7 @@ st.write("2. What do absorption lines tell us about an exoplanet?")
 options2 = st.radio("Choose one:",
                     ["Exoplanet's distance from it's star",
                     "Which atoms/molecules are present in the atmosphere",
-                    "How long the exoplanet takes to orbit it's star"], None, key = "q2"
+                    "How long the exoplanet takes to orbit it's star"], key = "q2"
                     )
 
 if options2 == "Exoplanet's distance from it's star":
@@ -74,7 +74,7 @@ st.write("3. Why do you think different gases absorb different wavelengths of li
 options3 = st.radio("Choose one:",
                     ["Because of the colour of the host star",
                      "Because of the planet's surface temperature",
-                     "Because each gas has it's own molecular structure and energy levels"], None, key = "q3"
+                     "Because each gas has it's own molecular structure and energy levels"], key = "q3"
                      )
 
 if options3 == "Because of the colour of the host star":
@@ -129,7 +129,7 @@ st.write("4. What happens to the absorption dip at 4.3um if you increase the CO2
 options4 = st.radio("Choose one:",
                     ["The dip gets deeper",
                      "The dip disappears",
-                     "The dip moves to a different wavelength"], None, key="q4" 
+                     "The dip moves to a different wavelength"], key="q4" 
                      )
 
 if options4 == "The dip gets deeper":
@@ -146,7 +146,7 @@ st.write("5. If the atmosphere contained no H2O, what would happen to the absorp
 options5 = st.radio("Choose one:",
                     ["It would disappear",
                      "It would get deeper",
-                     "It would move to a different wavelength"], None, key="q5"
+                     "It would move to a different wavelength"], key="q5"
                      )
 
 if options5 == "It would disappear":
@@ -163,7 +163,7 @@ st.write("6. If an exoplanet's atmosphere was rich in CH4 but contained no H2O o
 options6 = st.radio("Choose one:",
                     ["There would be a strong absorption dip only at 2.3 um",
                       "There would be strong dips at 1.4 µm, 2.3 µm, and 4.3 um",
-                      "There would be no absorption features at all"], None, key = "q6"
+                      "There would be no absorption features at all"], key = "q6"
                       )
 
 if options6 == "There would be a strong absorption dip only at 2.3 um":
@@ -199,7 +199,7 @@ st.write("7. Why would finding both oxygen and methane together in an exoplanet'
 options7 = st.radio("Choose one:",
                      ["Because they occur naturally on all planets",
                       "Because their presence together suggests they could be produced by life",
-                      "Because they make the planet hotter"], None, key="q7")
+                      "Because they make the planet hotter"], key="q7")
 
 if options7 == "Because they occur naturally on all planets":
     st.error("Not quite! These gases would react together and wouldn't stay in an atmosphere for long. This suggests they're being actively produced by something - life?")
