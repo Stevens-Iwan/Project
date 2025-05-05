@@ -27,7 +27,7 @@ st.write("1. What information do we gain from performing transit spectroscopy?")
 options1 = st.radio("Choose one:", 
                     ["The exoplanet's size",
                     "The exoplanet's orbital period",
-                    "The exoplanet's atmospheric composition"], None, key = "q1")
+                    "The exoplanet's atmospheric composition"], index = None, key = "q1")
 
 if options1 == "The exoplanet's atmospheric composition":
     st.success("Correct! From this method we can learn about the makeup of an exoplanet's atmosphere.")
